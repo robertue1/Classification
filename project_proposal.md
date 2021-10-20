@@ -24,6 +24,6 @@ I would be using modeling tools like Logistic Regression, in order to predict if
 The tools for this problem will be: Pandas and Numpy for data exploration, cleaning and possibly aggregation, supervised learning ML algorithms for making the predictions,
 matplotlib and seaborn for visualizations. 
 
-MVP Goal:
+## MVP Goal:
 
 A baseline model for predicting the churn. 
