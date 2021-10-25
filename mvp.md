@@ -1,4 +1,4 @@
-# Minimun minimun viable product
+# Minimun minimun viable product (:S)
 
 
 For my project, there is imbalance in the data, with a distribution of about 80 versus 20% negative versus positive cases of churning. 
