@@ -43,13 +43,13 @@ For this project, after generating a more complex dataset, the logistic regressi
 
 A RF model, turned out to be better for profit maximization, and that is why was included as another alternative. 
 
-**Final random forest scores:** 
+**Final Random Forest scores:** 
    - Accuracy 0.87
    - F1 0.57
    - precision 0.77
    - recall 0.45
 
-**Final Logistic Regression** 
+**Final Logistic Regression scores:** 
    - Accuracy: 0.82 
    - F1: 0.55
    - Precision: 0.53
