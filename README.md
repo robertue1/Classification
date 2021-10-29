@@ -19,33 +19,40 @@ Salary, balance, age, country of residency, number of products, if user has a cr
 
 ## Algorithms
 
+Data Acquisition: Data obtained from Kaggle. 
+Data Exploration: Observation of the data and its characteristics, looking for missing or unexpected values.
+Data Cleaning: Done initially and almost throughout the entire process.
+Data Visualization: Studying the performance of the models via graphs.
+
 *Feature Engineering*
-1. Mapping latitude and longitude to 3-dimensional coordinates so nearby continuous values would also be close in reality
-2. Converting categorical features to binary dummy variables
-3. Combining particular dummies and ranges of numeric features to highlight strong signals and illogical values for waterpoint status identified during EDA
-4. Selecting subsets of the total unique values for categorical features that were converted to dummies, according to the number of samples they were associated with and their contribution to certain statuses
+1. Creating groups based on age. 
+2. Analyzing if people tend to be savers, based on their balance / salary ratio. 
+3. Combining dummies variables with the rest of the numerical variables.
+4. Creating a feature to measure the ratio of tenure compared to the number of products they hold. 
+
+
 
 *Models*
   
-Logistic regression, k-nearest neighbors, and random forest classifiers were used before settling on random forest as the model with strongest cross-validation performance. Random forest feature importance ranking was used directly to guide the choice and order of variables to be included as the model underwent refinement.
+Logistic regression, k-nearest neighbors, and random forest classifiers were used. Baseline model was a KNN, that performed better than the logistic regression, before doing any kind of feature engineering on the data. 
 
 *Model Evaluation and Selection*
   
-The entire training dataset of 59,400 records was split into 80/20 train vs. holdout, and all scores reported below were calculated with 5-fold cross validation on the training portion only. Predictions on the 20% holdout were limited to the very end, so this split was only used and scores seen just once.
+For this project, after generating a more complex dataset, the logistic regression was used as the model to bring the interpretability into the picture, and helps us take some more informed decisions to improve the customer satisfaction. 
 
-The official metric for DrivenData was classification rate (accuracy); however, class weights were included to improve performance against F1 score and provide a more useful real-world application where classification of the minority class (functional needs repair) would be essential.
+A RF model, turned out to be better for profit maximization, and that is why was included as another alternative. 
 
-**Final random forest 5-fold CV scores:** 15 features (7 numeric) with class weights
-   - Accuracy 0.797
-   - F1 0.791 micro, 0.679 macro
-   - precision 0.792 micro, 0.722 macro
-   - recall 0.797 micro, 0.658 macro
+**Final random forest scores:** 
+   - Accuracy 0.87
+   - F1 0.57
+   - precision 0.77
+   - recall 0.45
 
-**Holdout** 
-   - Accuracy: 0.802  
-   - F1: 0.795 micro, 0.685 macro  
-   - Precision: 0.796 micro, 0.725 macro  
-   - Recall: 0.802 micro, 0.664 macro
+**Final Logistic Regression** 
+   - Accuracy: 0.82 
+   - F1: 0.55
+   - Precision: 0.53
+   - Recall: 0.56
 
 ## Tools
 - Numpy and Pandas for data manipulation
@@ -55,6 +62,10 @@ The official metric for DrivenData was classification rate (accuracy); however, 
 
 
 ## Communication
-In addition to the slides and visuals presented, [Tanzania Waterpoints](https://public.tableau.com/profile/arjun#!/vizhome/TanzaniaWater/TanzaniaWaterpoints) will be embedded on my personal website and blog.
 
-<img src="dashboard.png" width=500>
+
+Submitted PDF slides and 5 minutes presentation.
+
+
+
+
