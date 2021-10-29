@@ -8,7 +8,8 @@ account. With this information, the bank, could offer those clients a reduction 
 
 ## Design
 
-To achieve the goal of the project, the baseline model will help us guide our future steps. 
+To achieve the goal of the project, EDA was applied in a highly iterative way. After building of the base model, feature engineering was used in order to increase the complexity of the data and helping the evaluated models improve their performance. 
+Finally, hyperparameter tuning was used to generate the final models. 
 
 
 
