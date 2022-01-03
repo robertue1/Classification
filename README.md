@@ -46,8 +46,8 @@ A RF model, turned out to be better for profit maximization, and that is why was
 **Final Random Forest scores:** 
    - Accuracy 0.87
    - F1 0.57
-   - precision 0.77
-   - recall 0.45
+   - Precision 0.77
+   - Recall 0.45
 
 **Final Logistic Regression scores:** 
    - Accuracy: 0.82 
