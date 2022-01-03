@@ -1,4 +1,4 @@
-# Reducing customer churn for EuroBank
+# Predicting customer churn for EuroBank
 
 
 ## Abstract
