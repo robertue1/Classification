@@ -20,10 +20,10 @@ Salary, balance, age, country of residency, number of products, if user has a cr
 
 ## Algorithms
 
-Data Acquisition: Data obtained from Kaggle. 
-Data Exploration: Observation of the data and its characteristics, looking for missing or unexpected values.
-Data Cleaning: Done initially and almost throughout the entire process.
-Data Visualization: Studying the performance of the models via graphs.
+* Data Acquisition: Data obtained from Kaggle. 
+* Data Exploration: Observation of the data and its characteristics, looking for missing or unexpected values.
+* Data Cleaning: Done initially and almost throughout the entire process.
+* Data Visualization: Studying the performance of the models via graphs.
 
 *Feature Engineering*
 1. Creating groups based on age. 
