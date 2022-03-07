@@ -8,7 +8,7 @@ account. With this information, the bank, could offer those clients a reduction 
 
 ## Design
 
-To achieve the goal of the project, EDA was applied in a highly iterative way. After building of the base model, feature engineering was used in order to increase the complexity of the data and helping the evaluated models improve their performance. 
+To achieve the goal of the project, EDA was applied in a highly iterative way. After building the baseline model, feature engineering was used to create new derived features with greather predictive power.  
 Finally, hyperparameter tuning was used to generate the final models. 
 
 
