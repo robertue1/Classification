@@ -3,12 +3,11 @@
 
 ## Abstract
 
-For this project, the main goal is to create a classification algorithm, capable of determining which clients of a financial institution are likely to close their
-account. With this information, the bank, could offer those clients a reduction on their monthly fees, or some others benefits to incentive them to keep them as users. To reach the goal, historic data [*from the bank*](https://www.kaggle.com/kmalit/bank-customer-churn-prediction/data) is used, in order to develop a baseline prediction model. From there, I evaluated more complex models and solutions tailored to deal with the imbalanced present in the data. The end result will be an interpretable model and a *black box* model, capable of providing better results.
+For this project, the main goal is to create a classification algorithm capable of determining which financial institution clients are likely to close their accounts. With this information, the bank could offer those clients a reduction on their monthly fees or other benefits to incentive them to keep them as users. To reach the goal, historical data [*from the bank*](https://www.kaggle.com/kmalit/bank-customer-churn-prediction/data) is used to develop a baseline prediction model. From there, I evaluated more complex models and solutions tailored to deal with the imbalances present in the data. The result will be an interpretable model and a *black box* model capable of providing better results.
 
 ## Design
 
-To achieve the goal of the project, EDA was applied in a highly iterative way. After building the baseline model, feature engineering was used to create new derived features with greather predictive power.  
+Highly iterative Exploratory Data Analysis was applied to achieve the project’s goal. After building the baseline model, feature engineering was used to create new derived features with greater predictive power.  
 Finally, hyperparameter tuning was used to generate the final models. 
 
 
