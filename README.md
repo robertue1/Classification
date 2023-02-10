@@ -1,4 +1,4 @@
-# Predicting customer churn for EuroBank
+# Predicting customer churn using a Kaggle Dataset
 
 
 ## Abstract
